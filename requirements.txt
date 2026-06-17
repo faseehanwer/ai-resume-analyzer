@@ -1,0 +1,20 @@
+# ── UI ─────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── AI / LLM (Groq uses same langchain-openai package via base_url) ─────────
+openai>=1.10.0
+langchain>=0.1.12
+langchain-openai>=0.0.8
+langchain-core>=0.1.32
+
+# ── Document parsing ───────────────────────────
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+
+# ── Data & charts ──────────────────────────────
+pandas>=2.0.0
+plotly>=5.18.0
+
+# ── Utilities ──────────────────────────────────
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
